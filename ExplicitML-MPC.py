@@ -87,9 +87,9 @@ def LoadData():
 
 def plot_trace_Ex_Im(x_trace_list, u_trace_list, obj_list):
     all_grid_list, all_K_list = LoadData()
-    x_trace_list_im = np.load('./ImplicitMPC_result/x_trace_Im.npy', allow_pickle=True)
-    u_trace_list_im = np.load('./ImplicitMPC_result/u_trace_Im.npy', allow_pickle=True)
-    obj_list_im = np.load('./ImplicitMPC_result/obj_trace_Im.npy', allow_pickle=True)
+    x_trace_list_im = np.load('./ImplicitMPC_result/x_trace1_Im.npy', allow_pickle=True)
+    u_trace_list_im = np.load('./ImplicitMPC_result/u_trace1_Im.npy', allow_pickle=True)
+    obj_list_im = np.load('./ImplicitMPC_result/obj_trace1_Im.npy', allow_pickle=True)
     step = [i for i in range(1, len(x_trace_list))]
     
     init_x1 = x_trace_list[0][0]
@@ -221,6 +221,7 @@ def GetExplicitMPC_sol(x_k, sols):
     x_k1_all_list, x_k2_all_list = FNN_next_state(x_k_all_list, u_k_all_list, u_k1_all_list)
     obj_value_all_list = eval_f(x_k1_all_list, x_k2_all_list, u_k_all_list, u_k1_all_list)
 
+    
     min_loc = np.argmin(obj_value_all_list)
     best_u_k = u_k_all_list[min_loc].reshape(-1,)
     return best_u_k, obj_value_all_list[min_loc]
@@ -305,7 +306,7 @@ def plot_trace_scaled(x_trace_list):
     x1_list = [x[0] for x in x_trace_list]
     x2_list = [x[1] for x in x_trace_list]
     
-    x_trace_list_im = np.load('./ImplicitMPC_result/x_trace_scaled_Im.npy', allow_pickle=True)
+    x_trace_list_im = np.load('./ImplicitMPC_result/x_trace1_scaled_Im.npy', allow_pickle=True)
     x1_list_im = [x[0] for x in x_trace_list_im]
     x2_list_im = [x[1] for x in x_trace_list_im]
 
