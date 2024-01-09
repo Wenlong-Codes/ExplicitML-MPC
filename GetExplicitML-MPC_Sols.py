@@ -502,15 +502,7 @@ if __name__ == "__main__":
     #save the solutions
     np.save('ExplicitML-MPC_Sols.npy', ExplicitMPC_Sols)
     print('All Done!')
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     
     
     
