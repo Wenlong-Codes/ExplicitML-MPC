@@ -320,9 +320,3 @@ if __name__ == "__main__":
         else:
             ave_search_step_list.append(-1)
     print(ave_search_step_list)
-        
-        
-        
-        
-        
-        
