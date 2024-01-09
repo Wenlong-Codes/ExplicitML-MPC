@@ -524,10 +524,3 @@ if __name__ == "__main__":
 
     plot_trace_Ex_Im(x_trace_list, u_trace_list, obj_trace_list)
     plot_trace_scaled(x_trace_list_scaled)
-
-        
-        
-        
-        
-        
-        
