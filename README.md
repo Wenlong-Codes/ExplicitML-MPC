@@ -10,7 +10,7 @@
 - The First Principle equations for this system are given as follows:
 
 
-     <img src="https://github.com/Wenlong-Codes/ExplicitML-MPC/assets" alt = "FP CSTR.jpg" width="300" height="90">
+     [<img src="assets/cstr_fp.png">](https://github.com/Wenlong-Codes/ExplicitML-MPC/)
 
 
 - Where,
