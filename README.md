@@ -1,4 +1,4 @@
-# Explicit Machine Learning-based Model Predictive Control (Explicit ML-MPC) of Nonlinear Processes via Multi-parametric Programming
+# Explicit Machine Learning-based Model Predictive Control of Nonlinear Processes via Multi-parametric Programming
 ## 1. Continuous Stirred Tank Reactor (CSTR) Example
 
 - Let us consider a second-order irreversible exothermic reaction A >> B:
@@ -41,7 +41,7 @@
      > Please refer to the file "ExplicitML-MPC.py"
   
 ## 3. Citation
-@article{wang2024explicit,
+> @article{wang2024explicit,
   title={Explicit machine learning-based model predictive control of nonlinear processes via multi-parametric programming},
   author={Wang, Wenlong and Wang, Yujia and Tian, Yuhe and Wu, Zhe},
   journal={Computers \& Chemical Engineering},
