@@ -37,7 +37,7 @@
      > Please refer to the files under the "Space_discretization" folder
 - Step 4: Generate the solution maps for the discretized state-space via multi-parametric programming.
      > Please refer to the file "GetExplicitML-MPC_Sols.py"
-- Step 5: Carry out closed-loop simulations to test the effectiveness of the proposed Explicit ML-MPC.
+- Step 5: Carry out closed-loop simulations to test the effectiveness of the Explicit ML-MPC.
      > Please refer to the file "ExplicitML-MPC.py"
   
 ## 3. Citation
