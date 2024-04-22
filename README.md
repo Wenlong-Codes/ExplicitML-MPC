@@ -1,4 +1,4 @@
-# Explicit Machine Learning-based Model Predictive Control of Nonlinear Processes
+# Explicit Machine Learning-based Model Predictive Control of Nonlinear Processes via Multi-parametric Programming
 ## 1. Continuous Stirred Tank Reactor (CSTR) Example
 
 - Let us consider a second-order, exothermic, irreversible reaction A >> B
@@ -10,7 +10,7 @@
 - The First Principle equations for this system are given as follows:
 
 
-     <img src="https://github.com/Keerthana-Vellayappan/Demonstration-of-Physics-Informed-Machine-Learning-Model/assets/160836399/da9e944b-1b0c-4694-8b48-2a21f49d55ed" width="300" height="90">
+     <img src="![FP CSTR](https://github.com/Wenlong-Codes/ExplicitML-MPC/assets/140233129/2669a5c8-e05e-45a6-98ee-b5c7f9782a67)" width="300" height="90">
 
 
 - Where,
