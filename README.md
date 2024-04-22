@@ -41,6 +41,7 @@
      > Please refer to the file "ExplicitML-MPC.py"
   
 ## 3. Citation
+You can find our paper [here](https://www.sciencedirect.com/science/article/abs/pii/S0098135424001078)
 > @article{wang2024explicit,
   title={Explicit machine learning-based model predictive control of nonlinear processes via multi-parametric programming},
   author={Wang, Wenlong and Wang, Yujia and Tian, Yuhe and Wu, Zhe},
