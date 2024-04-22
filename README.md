@@ -21,7 +21,7 @@
    - 𝑄 :  Heat input rate (kJ/h)
    - F: feed volumetric flow rate (m<sup>3</sup>/h)
    - 𝑇<sub>0</sub>: Inlet temperature (K)
-
+> The full description of the process parameters can be found at [here](https://link.springer.com/book/10.1007/978-3-030-71183-2)
 - The State and Manipulated variables for this system are:
 
     - States variables: _𝐱_=[𝐶<sub>A</sub>−𝐶<sub>As</sub>, 𝑇−𝑇<sub>s</sub>]
