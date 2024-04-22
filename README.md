@@ -10,7 +10,7 @@
 - The First Principle equations for this system are given as follows:
 
 
-     <img src="![FP CSTR](https://github.com/Wenlong-Codes/ExplicitML-MPC/assets/140233129/2669a5c8-e05e-45a6-98ee-b5c7f9782a67)" width="300" height="90">
+     <img src="https://github.com/Wenlong-Codes/ExplicitML-MPC/assets/FP CSTR.jpg" alt = " Figure: First-Principles Equations for the CSTR" width="300" height="90">
 
 
 - Where,
