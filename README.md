@@ -7,7 +7,7 @@
 <img src="https://github.com/Keerthana-Vellayappan/Demonstration-of-Physics-Informed-Machine-Learning-Model/assets/160836399/c1337cf1-eb78-47d7-b95b-1ce399d0ad10" alt = " Figure: Schematic diagram of a CSTR" width="250" height="250">
 
 
-- The first-principles equations for this system are given as follows:
+- The first-principles equations (i.e., energy and material balance equations) for this system are given as follows:
 
 
      [<img src="assets/FP CSTR.jpg">](https://github.com/Wenlong-Codes/ExplicitML-MPC/)
